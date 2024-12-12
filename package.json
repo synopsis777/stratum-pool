@@ -1,0 +1,39 @@
+{
+    "name": "stratum-pool",
+    "version": "0.2.0",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "rwahash"
+    ],
+    "homepage": "https://github.com/e4p1k0/stratum-pool",
+    "bugs": {
+        "url": "https://github.com/e4p1k0/stratum-pool/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/e4p1k0/stratum-pool.git"
+    },
+    "dependencies": {
+        "async": "^3.2.0",
+        "bchaddrjs": "^0.4.9",
+        "big.js": "^6.2.2", 
+        "bitcoinjs-lib": "^5.1.10",
+        "bs58": "^5.0.0",
+        "multi-hashing": "https://github.com/e4p1k0/node-multi-hashing.git"
+    },
+    "engines": {
+        "node": ">=12"
+    }
+}
